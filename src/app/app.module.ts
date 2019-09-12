@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { FechaactualComponent } from './fechaactual/fechaactual.component';
+import { CopyrigthComponent } from './copyrigth/copyrigth.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FechaactualComponent
+    FechaactualComponent,
+    CopyrigthComponent
   ],
   imports: [
     BrowserModule,
